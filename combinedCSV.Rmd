@@ -17,8 +17,7 @@ filenames = list.files("fixtures", patter = "*.csv",full.names = FALSE)
 #initializes combined df variable
 combinedCSV = data.frame()
 
-#for loop that iterates for each file in fixtures folder based on filenames list
-#for loop that iterates for each file in fixtures folder based on filenames list
+#for loop that iterates for each file in fixtures folder based on filenames list 
 for (i in 1:length(filenames)) {
   nameCSV = filenames[i] #created variable for current csv file
   fileVar = 
